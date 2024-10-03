@@ -12,6 +12,7 @@ y_bar <- mean(y)
 
 m <- sum((x-x_bar)*(y-y_bar))/sum((x-x_bar)^2)
 b <- y_bar-m*x_bar
+
 b
 m
 m*1.5+b
